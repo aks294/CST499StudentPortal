@@ -1,13 +1,27 @@
+# CST499 Student Portal
+
+A simple PHP/MySQL Student Portal built for CST499 coursework.  
+This project demonstrates a landing page, registration, login, and dashboard with session management.
 
 ---
 
-## 🔄 How to add/update this README on GitHub
+## 🚀 Features
+- Landing page with navigation
+- Student registration (with validation and password hashing)
+- Login and session management
+- Dashboard for logged-in students
+- Database integration using PDO
+- Secure password storage with `password_hash` / `password_verify`
 
-### Option 1: Add it locally and push
-1. In your project folder, create a file called `README.md`.
-2. Paste the above content inside.
-3. Stage, commit, and push:
-   ```bat
-   git add README.md
-   git commit -m "Add README with setup instructions"
-   git push
+---
+
+## 🛠️ Setup Instructions
+
+1. **Install XAMPP**
+   - Download from [Apache Friends](https://www.apachefriends.org/download.html).
+   - Start **Apache** and **MySQL** in the XAMPP Control Panel.
+
+2. **Clone this repository into `htdocs`**
+   ```bash
+   cd C:\xampp\htdocs
+   git clone https://github.com/aks294/CST499StudentPortal.git CST_499Project
