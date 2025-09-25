@@ -1,0 +1,17 @@
+# Ignore Windows system files
+Thumbs.db
+Desktop.ini
+
+# Ignore XAMPP / temp files
+*.log
+*.tmp
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+
+# Ignore the leftover repo folder
+CST499StudentPortal/
+
+# Ignore vendor or composer stuff (not used now, but safe)
+vendor/
